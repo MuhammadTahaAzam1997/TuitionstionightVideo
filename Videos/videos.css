@@ -1,0 +1,72 @@
+body{
+    background-image: url("background.jpg");
+    background-size:100%; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("background.jpg");
+    background-size:100%; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:orangered;
+}
+.navbar{
+width: 25;
+height: 25;
+
+}
+.aivideos{
+    border-style: dashed;
+    border-color: #333;
+    background-image: url("aiv.jpg");
+    background-size:100%;
+}
+
+.siv{
+    border-style: dotted;
+    border-color: #333;
+}
+.htv{
+    border-style: dashed;
+    border-color: #333;
+    background-image: url("aiv.jpg");
+    background-size:100%;
+}
+h2{
+    color:white;
+}
+h1{
+    color:white;
+}
